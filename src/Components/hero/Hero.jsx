@@ -1,5 +1,6 @@
 import React from 'react'
 import City from '../city/City'
+import Guest from '../guest/Guest'
 import Property from '../property/Property'
 import './hero.scss'
 
@@ -28,7 +29,7 @@ const Hero = () => {
                     <City src={images.src3} text1='Bella' text2='623 Properties' />
                 </div>
                 <div className="middle">
-                    <h3 style={{ fontWeight: 'bold' }}> Browse by property type</h3>
+                    <h3 style={{ fontWeight: 'bold', marginTop: "12px", marginBottom: "10px" }}> Browse by property type</h3>
                     <div className="propertyContainer">
                         <Property src={imagesMiddle.src1} text1='Hotels' text2='133 hotels' />
                         <Property src={imagesMiddle.src2} text1='Appartments' text2='133 appartments' />
@@ -37,7 +38,15 @@ const Hero = () => {
                         <Property src={imagesMiddle.src5} text1='Cabins' text2='51 cabins' />
                     </div>
                 </div>
-                <div className="bottom">bottom</div>
+                <div className="bottom">
+                    <h3 style={{ fontWeight: 'bold', marginTop: "12px", marginBottom: "10px" }}>Homes guest love</h3>
+                    <div className='guestComponent'>
+                        <Guest />
+                        <Guest />
+                        <Guest />
+                        <Guest />
+                    </div>
+                </div>
             </div>
         </div>
     )
