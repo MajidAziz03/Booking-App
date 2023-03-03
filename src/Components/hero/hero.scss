@@ -1,0 +1,32 @@
+.hero {
+    background-color: lightgreen;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+
+    .container {
+        background-color: lightcoral;
+        width: 1024px;
+        padding-top: 50px;
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+
+        .top {
+            display: flex;
+            justify-content: space-between;
+            gap: 1rem;
+            height: 220px;
+        }
+
+        .middle {
+            background-color: purple;
+        }
+
+        .bottom {
+            background-color: green;
+        }
+
+    }
+
+}
