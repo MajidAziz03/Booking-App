@@ -20,7 +20,13 @@
         }
 
         .middle {
-            background-color: purple;
+
+            .propertyContainer {
+                display: flex;
+                justify-content: space-between;
+                gap: 1rem;
+                padding-top: 20px;
+            }
         }
 
         .bottom {
