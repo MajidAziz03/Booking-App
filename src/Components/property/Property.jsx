@@ -4,14 +4,14 @@ import './property.scss'
 
 
 
-const Property = ({ src }) => {
+const Property = ({ src, text1, text2 }) => {
     return (
         <>
             <div className='property'>
                 <img src={src} alt="" />
                 <div className="info">
-                    <span>Hotels</span>
-                    <span>133 Hotels </span>
+                    <span>{text1}</span>
+                    <span>{text2}</span>
                 </div>
             </div>
         </>

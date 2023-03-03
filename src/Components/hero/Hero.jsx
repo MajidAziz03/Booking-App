@@ -30,11 +30,11 @@ const Hero = () => {
                 <div className="middle">
                     <h3 style={{ fontWeight: 'bold' }}> Browse by property type</h3>
                     <div className="propertyContainer">
-                        <Property src={imagesMiddle.src1} />
-                        <Property src={imagesMiddle.src2} />
-                        <Property src={imagesMiddle.src3} />
-                        <Property src={imagesMiddle.src4} />
-                        <Property src={imagesMiddle.src5} />
+                        <Property src={imagesMiddle.src1} text1='Hotels' text2='133 hotels' />
+                        <Property src={imagesMiddle.src2} text1='Appartments' text2='133 appartments' />
+                        <Property src={imagesMiddle.src3} text1='Resorts' text2='1335 resorts' />
+                        <Property src={imagesMiddle.src4} text1='Villas' text2='32 villas' />
+                        <Property src={imagesMiddle.src5} text1='Cabins' text2='51 cabins' />
                     </div>
                 </div>
                 <div className="bottom">bottom</div>
