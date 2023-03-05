@@ -8,6 +8,7 @@ import './home.scss';
 const Home = () => {
     return (
         <>
+
             <Navbar />
             <Header />
             <Hero />
